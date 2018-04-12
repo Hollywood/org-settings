@@ -1,7 +1,7 @@
 # Configuration for Remove-Outside-Collaborators
 
 # Turn on Monitor Mode [SET ON BY DEFAULT]. In this mode the repo visibility is not modified and only an Issue is created
-monitorOnly: true
+monitorOnly: false
 
 # Enables detection of repos that change visibility from private to public (not just newly created ones)
 enableCollaboratorRemoval: true
@@ -22,4 +22,4 @@ monitorIssueBody: 'Please note that the adding of Outside Collaborators is prohi
 # ccList: '@user123 @user456'
 
 # Collaborators to exclude in detection. Should be a List of Strings.
-# excludeRepos: ['user1', 'user2']
+# excludeCollaborators: ['user1', 'user2']
